@@ -85,11 +85,23 @@
   align-items: center;
   
 }
+.cart_icon{
+  font: 1.75em sans-serif;
+}
 .bag-item-count{
-  margin-bottom: 27px;
+  margin-bottom: 22px;
   font: 1em sans-serif;
+  background-color: yellow;
+  color: black;
+  border-radius: 40%;
+  height: 38px;
+  width: 35px;
+  text-align: center;
 }
 .bag-order{
   font: 0.75em sans-serif;
   margin-right: 10px;
+}
+.profile{
+  font: 1.75em sans-serif;
 }

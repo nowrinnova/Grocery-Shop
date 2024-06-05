@@ -4,6 +4,7 @@ import { FaGreaterThan } from "react-icons/fa6";
 import { AiFillHome } from "react-icons/ai";
 import { IoSearch } from "react-icons/io5";
 import { FaShoppingCart } from "react-icons/fa";
+import { CgProfile } from "react-icons/cg";
 function Header() {
   return (
     <>
@@ -37,14 +38,14 @@ function Header() {
             </div>
           </div>
           <div className="header-headerSection2">
-            <div className="location-wrapper">
+            {/* <div className="location-wrapper">
               <div className="location-wrapper-house">
                 <AiFillHome />
               </div>
               <div className="location-wrapper-greater">
                 <FaGreaterThan />
               </div>
-            </div>
+            </div> */}
             <div className="header-headerSection2-search">
               <div className="header2-search-button">
                 <input
@@ -62,13 +63,14 @@ function Header() {
           </div>
           <div className="header-headerSection3">
             <div class="cartDetails">
-              <span class="material-symbols-outlined action_icon">
+              <span class="cart_icon">
               <FaShoppingCart />
               </span>
               <span class="bag-item-count">0</span>
               <span className="bag-order">Order</span>
               <span>|</span>
               <span><FaGreaterThan /></span>
+              <span className="profile"><CgProfile /></span>
             </div>
           </div>
         </div>
