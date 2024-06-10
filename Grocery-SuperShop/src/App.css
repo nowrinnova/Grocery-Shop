@@ -86,22 +86,98 @@
   
 }
 .cart_icon{
-  font: 1.75em sans-serif;
+  font: 1.35em sans-serif;
 }
 .bag-item-count{
   margin-bottom: 22px;
-  font: 1em sans-serif;
+  font: .75em sans-serif;
   background-color: yellow;
   color: black;
-  border-radius: 40%;
-  height: 38px;
+  border-radius: 50%;
+  height: 30px;
   width: 35px;
   text-align: center;
+  
+  
 }
 .bag-order{
   font: 0.75em sans-serif;
   margin-right: 10px;
 }
 .profile{
-  font: 1.75em sans-serif;
+  font: 1.35em sans-serif;
 }
+.icon{
+  font: 3.75em sans-serif;
+}
+.items-container {
+  /* display: flex; */
+  width: 100%;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+
+}
+/* HomeItems-css */
+.item-container {
+  width: 270px;
+
+
+}
+
+.item-img {
+  width: 200px;
+  height: 300px;
+}
+
+.rating {
+  font-weight: bold;
+}
+
+.company-name {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.item-name {
+  font-size: 10px;
+  color: #94969f;
+}
+
+.current-price {
+  font-weight: bold;
+}
+
+.orginal-price {
+  font-weight: 2S00;
+  color: #94969f;
+  font-size: 12px;
+  text-decoration: line-through;
+}
+
+.discount {
+  color: rgb(254, 186, 60);
+ 
+}
+
+.btn-add-bag {
+  width: 150px;
+  height: 50px;
+  margin-left: 15px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  background-color: rgb(195, 244, 122);
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: medium;
+}
+.btn-add-bag:active {
+
+ background: #a59696; color:red;
+  
+  }
+

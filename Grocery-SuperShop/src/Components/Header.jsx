@@ -33,7 +33,7 @@ function Header() {
             </div>
             <div className="logo">
               <a href="">
-                <img src="Images/logo.webp" alt="" />
+                <img src="images/logo.webp" alt="" />
               </a>
             </div>
           </div>
@@ -62,11 +62,11 @@ function Header() {
             </div>
           </div>
           <div className="header-headerSection3">
-            <div class="cartDetails">
-              <span class="cart_icon">
+            <div className="cartDetails">
+              <span className="cart_icon">
               <FaShoppingCart />
               </span>
-              <span class="bag-item-count">0</span>
+              <span className="bag-item-count">0</span>
               <span className="bag-order">Order</span>
               <span>|</span>
               <span><FaGreaterThan /></span>
