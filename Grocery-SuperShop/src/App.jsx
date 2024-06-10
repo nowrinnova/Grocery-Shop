@@ -3,6 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Header from './Components/Header';
 import Footer from './Components/Footer';
 import HomeItems from './Components/HomeItems';
+import SideBar from './Components/SideBar';
 
 function App() {
  const item=
@@ -25,7 +26,8 @@ function App() {
   return (
     <>
       <Header></Header>
-      <div className='items-container'><HomeItems item={item}></HomeItems></div>
+      <SideBar></SideBar>
+      {/* <div className='items-container'><HomeItems item={item}></HomeItems></div> */}
       <Footer></Footer>
     </>
   )
