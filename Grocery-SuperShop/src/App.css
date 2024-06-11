@@ -132,13 +132,17 @@
 /* HomeItems-css */
 .item-container {
   width: 270px;
-
-
+display: flex;
+align-items: center;
+  justify-self:center;
+  margin-top: 10px;
 }
 
 .item-img {
-  width: 200px;
+  width:80%;
   height: 300px;
+ margin-top: 15px;
+ border-radius: 8px;
 }
 
 .rating {
@@ -174,11 +178,12 @@
 .btn-add-bag {
   width: 150px;
   height: 50px;
-  margin-left: 15px;
-  margin-top: 10px;
-  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-top: 20px;
+  margin-bottom: 10px;
   border-radius: 4px;
-  background-color: rgb(195, 244, 122);
+  color: white;
+  background-color:#04529e;
   border: none;
   cursor: pointer;
   font-weight: bold;

@@ -7,14 +7,6 @@ function SideBar() {
         className="d-flex flex-column flex-shrink-0 p-3 bg-body-tertiary"
         style={{ width: "400px" }}
       >
-        {/* <a
-        href="/"
-        className="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
-      >
-        <svg className="bi pe-none me-2" width="40" height="32">
-          <use xlinkHref="#bootstrap"></use>
-        </svg>
-      </a> */}
         <hr />
         <ul className="nav nav-pills flex-column mb-auto">
           <li className="nav-item sidebar-list">
