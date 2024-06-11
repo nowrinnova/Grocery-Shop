@@ -2,10 +2,10 @@
   margin: 0%;
   padding: 0%;
 }
-.app-container{
+.app-container {
   display: flex;
 }
-.sidebar-list{
+.sidebar-list {
   font-size: 33px;
   font-weight: 400;
   font-family: cursive;
@@ -92,31 +92,32 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  
 }
-.cart_icon{
+.cart_icon {
   font: 1.35em sans-serif;
 }
-.bag-item-count{
+.cart_icon a{
+  text-decoration: none;
+  color: white;
+}
+.bag-item-count {
   margin-bottom: 22px;
-  font: .75em sans-serif;
+  font: 0.75em sans-serif;
   background-color: yellow;
   color: black;
   border-radius: 50%;
   height: 30px;
   width: 35px;
   text-align: center;
-  
-  
 }
-.bag-order{
+.bag-order {
   font: 0.75em sans-serif;
   margin-right: 10px;
 }
-.profile{
+.profile {
   font: 1.35em sans-serif;
 }
-.icon{
+.icon {
   font: 3.75em sans-serif;
 }
 .items-container {
@@ -126,23 +127,21 @@
   margin-right: 20px;
   margin-top: 20px;
   margin-bottom: 20px;
-
-
 }
 /* HomeItems-css */
 .item-container {
   width: 270px;
-display: flex;
-align-items: center;
-  justify-self:center;
+  display: flex;
+  align-items: center;
+  justify-self: center;
   margin-top: 10px;
 }
 
 .item-img {
-  width:80%;
+  width: 80%;
   height: 300px;
- margin-top: 15px;
- border-radius: 8px;
+  margin-top: 15px;
+  border-radius: 8px;
 }
 
 .rating {
@@ -172,7 +171,6 @@ align-items: center;
 
 .discount {
   color: rgb(254, 186, 60);
- 
 }
 
 .btn-add-bag {
@@ -183,15 +181,13 @@ align-items: center;
   margin-bottom: 10px;
   border-radius: 4px;
   color: white;
-  background-color:#04529e;
+  background-color: #04529e;
   border: none;
   cursor: pointer;
   font-weight: bold;
   font-size: medium;
 }
 .btn-add-bag:active {
-
- background: #a59696; color:red;
-  
-  }
-
+  background: #a59696;
+  color: red;
+}

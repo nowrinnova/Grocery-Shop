@@ -1,9 +1,9 @@
 import './App.css'
 import "bootstrap/dist/css/bootstrap.min.css";
-import Header from './Components/Header';
-import Footer from './Components/Footer';
-import HomeItems from './Components/HomeItems';
-import SideBar from './Components/SideBar';
+import Header from '../routes/Header';
+import Footer from '../routes/Footer';
+import HomeItems from '../routes/HomeItems';
+import SideBar from '../routes/SideBar';
 
 function App() {
  const item=

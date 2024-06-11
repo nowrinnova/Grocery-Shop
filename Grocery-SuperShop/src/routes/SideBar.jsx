@@ -5,7 +5,7 @@ function SideBar() {
     <>
       <div
         className="d-flex flex-column flex-shrink-0 p-3 bg-body-tertiary"
-        style={{ width: "400px" }}
+        style={{ width: "300px" }}
       >
         <hr />
         <ul className="nav nav-pills flex-column mb-auto">
