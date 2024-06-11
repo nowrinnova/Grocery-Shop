@@ -26,8 +26,12 @@ function App() {
   return (
     <>
       <Header></Header>
-      <SideBar></SideBar>
-      {/* <div className='items-container'><HomeItems item={item}></HomeItems></div> */}
+      <div className='app-container'> 
+        <SideBar/>
+        <div className='items-container'><HomeItems item={item}></HomeItems></div>
+      </div>
+     
+      
       <Footer></Footer>
     </>
   )

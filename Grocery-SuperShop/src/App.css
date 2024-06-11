@@ -2,6 +2,15 @@
   margin: 0%;
   padding: 0%;
 }
+.app-container{
+  display: flex;
+}
+.sidebar-list{
+  font-size: 33px;
+  font-weight: 400;
+  font-family: cursive;
+  text-align: center;
+}
 .header-top {
   display: flex;
   justify-content: end;
