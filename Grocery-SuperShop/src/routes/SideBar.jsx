@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link} from 'react-router-dom';
 function SideBar() {
   return (
     <>
@@ -10,8 +10,8 @@ function SideBar() {
         <hr />
         <ul className="nav nav-pills flex-column mb-auto">
           <li className="nav-item sidebar-list">
-            <a
-              href="#"
+            <Link
+              to="/"
               className="nav-link link-body-emphasis "
               aria-current="page"
             >
@@ -19,7 +19,7 @@ function SideBar() {
                 <use xlinkHref="#home"></use>
               </svg>
               Home
-            </a>
+            </Link>
           </li>
           <hr />
           <li className="nav-item sidebar-list">

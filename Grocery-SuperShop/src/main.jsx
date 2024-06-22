@@ -4,13 +4,18 @@ import App from "./routes/App.jsx";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import './index.css'
 import Cart from './routes/Cart.jsx';
+import HomeItems from './routes/HomeItems.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
       children:[{
-        path:"cart" ,element:<Cart/>
-      },]
+        path:"/" ,element:<HomeItems/>
+      },
+      {
+        path:"/cart" ,element:<Cart/>
+      },
+    ]
     
   },
 ]);
