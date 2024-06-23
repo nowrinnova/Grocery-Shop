@@ -3,10 +3,10 @@ import React from "react";
 function HomeItems({item}) {
 
   return (
-    <div>
-      <div class="card item-container" style={{width: "18rem"}}>
-        <img src={item.image} class="item-img" alt="..." />
-        <div class="card-body text-center">
+    <div className="">
+      <div className="card item-container" style={{width: "18rem"}}>
+        <img src={item.image} className="item-img" alt="..." />
+        <div className="card-body text-center">
           <div className="rating">
             {item.rating.stars} ⭐ {item.rating.count}k
           </div>
@@ -19,7 +19,7 @@ function HomeItems({item}) {
           </div>
           <button
             className="btn-add-bag"
-            onClick={console.log("command procced")}
+            // onClick={}
           >
             Add To Bag
           </button>

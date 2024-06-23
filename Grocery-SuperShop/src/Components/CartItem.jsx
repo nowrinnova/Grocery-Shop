@@ -1,5 +1,5 @@
 import React from "react";
-
+import { RiDeleteBin5Fill } from "react-icons/ri";
 function CartItem() {
   const item=
     
@@ -19,29 +19,34 @@ function CartItem() {
     }
   }
   return (
-    <div class="bag-item-container">
-      <div class="item-left-part">
-        <img class="bag-item-img" src={item.image} />
+    <div className="bag-item-container">
+    <div className="item-left-part">
+      <img className="bag-item-img" src={item.image} />
+    </div>
+    <div className="item-right-part">
+      <div className="company">{item.company}</div>
+      <div className="item-name">{item.item_name}</div>
+      <div className="price-container">
+        <span className="current-price">Rs {item.current_price}</span>
+        <span className="original-price">Rs {item.original_price}</span>
+        <span className="discount-percentage">
+          ({item.discount_percentage}% OFF)
+        </span>
       </div>
-      <div class="item-right-part">
-        <div class="company">{item.company}</div>
-        <div class="item-name">{item.item_name}</div>
-        <div class="price-container">
-          <span class="current-price">Rs {item.current_price}</span>
-          <span class="original-price">Rs {item.original_price}</span>
-          <span class="discount-percentage">
-            ({item.discount_percentage}% OFF)
-          </span>
-        </div>
-        <div class="return-period">
-          <span class="return-period-days">14 days</span> return available
-        </div>
-        <div class="delivery-details">
-          Delivery by
-          <span class="delivery-details-days">10 Oct 2023</span>
-        </div>
+      <div className="return-period">
+        <span className="return-period-days">{item.return_period} days</span>{" "}
+        return available
+      </div>
+      <div className="delivery-details">
+        Delivery by
+        <span className="delivery-details-days">{item.delivery_date}</span>
       </div>
     </div>
+
+    <div className="remove-from-cart" onClick={()=>console.log("pressed")}>
+      <RiDeleteBin5Fill />
+    </div>
+  </div>
   );
 }
 
