@@ -4,6 +4,7 @@ import Header from './Header';
 import Footer from '../routes/Footer';
 import SideBar from '../routes/SideBar';
 import { Outlet} from 'react-router-dom';
+import FatchItems from '../Components/FatchItems';
 function App() {
 
   return (
@@ -12,6 +13,7 @@ function App() {
       <div className='app-container'> 
         <SideBar/>
         <div className='items-container'>
+          <FatchItems></FatchItems>
           <Outlet />
           </div>
       </div>
